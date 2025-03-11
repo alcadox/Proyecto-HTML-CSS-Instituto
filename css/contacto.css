@@ -1,0 +1,78 @@
+section div{
+    height: 100%;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 0px 15px 15px #ffbb00;
+}
+
+div article.primer_contacto{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+div article.primer_contacto a{
+    color: #926b00;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.div_enlaces{
+    height: 80%;
+    width: 20%;
+}
+
+.div_enlaces p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px ;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.div_enlaces div{
+    height: 200px;
+}
+
+
+.contenedor_imagenes{
+    box-shadow: 0px 5px 9px black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease-in-out; 
+    width: 60%;
+    padding: 10px;
+}
+
+.contenedor_imagenes img{
+    width: 80px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(48, 48, 48);
+    background-color: rgb(213, 213, 213);
+}
+
+.contenedor_imagenes img:hover{
+    transform: scale(1.06);
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+
+.contenedor_imagenes:hover{
+    transform: scale(1.03);
+}
+
+section div:hover article:last-child{
+    background-color: rgb(99, 99, 99);
+}
+
+div article.primer_contacto a:hover{
+    color: #0a009d;
+}
+
+section div:hover{
+    transform: translateY(-10px);
+}

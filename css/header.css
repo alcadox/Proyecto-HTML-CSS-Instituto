@@ -1,0 +1,65 @@
+header {
+    height: 200px;
+    background: linear-gradient(135deg, #1a1a1a, #333, #1a1a1a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(255, 187, 0, 0.7);
+    border-bottom: 4px solid #ffbb00;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* Efecto de líneas de neón en el borde superior */
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #ffbb00, #ff6600, #ffbb00);
+    animation: neonglow 3s linear infinite;
+}
+
+@keyframes neonglow {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffbb00;
+    text-shadow: 0px 0px 20px rgba(255, 187, 0, 0.9);
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+header:hover h1 {
+    transform: scale(1.02);
+}
+
+header h3 {
+    color: #ddd;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    margin-top: -50px;
+}
+
+/* Barra luminosa decorativa inferior */
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ffbb00, #ff6600, #ffbb00);
+    animation: neonglow 3s linear infinite reverse;
+}

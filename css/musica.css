@@ -1,0 +1,22 @@
+aside{
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+    width: 310px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    padding: 10px;
+    opacity: 30%;
+    transition: opacity 0.5s ease-in-out;
+    margin-bottom: -60px;
+}
+
+aside audio{
+    margin: auto;
+
+}
+
+aside:hover{
+    opacity: 100%;
+    
+}

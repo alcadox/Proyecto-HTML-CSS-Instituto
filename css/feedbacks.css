@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(84, 84, 84);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(../imagenes/index/luxa.org-opacity-changed-._logo.png);
+    background-size: 50px 50px;
+    
+}
+
+section.contenedor_principal {
+    margin: auto;
+    margin-top: 60px;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(204, 204, 204));
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffbb00;
+    box-shadow: 0px 0px 15px #ffbb00;
+    
+}
+
+div.titulo {
+    color: #ffffff; 
+    text-align: center; 
+    background: linear-gradient(140deg, rgb(59, 59, 59), rgb(96, 96, 96));
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 40px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    width: 80%; 
+    margin: auto;
+    margin-top: -20px; 
+    letter-spacing: 0.25em; 
+    padding: 15px; 
+    border-bottom-style:solid ;
+    border-left-style:solid ;
+    border-right-style: solid;
+    box-shadow: 0px 0px 15px #ffbb00;
+    border-color: #ffbb00;
+
+}
+
+
+article.contenedor_opinion{
+    background: linear-gradient(40deg, rgb(91, 91, 91), rgb(214, 214, 214));
+    border-radius: 20px;
+    width: 76%;
+    margin: auto;
+    border-style: solid;
+    margin-top: 38px;
+    box-shadow: 0px 15px 15px black;
+    transition: transform 0.7s ease-in-out;
+}
+
+article.contenedor_opinion h3{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article.contenedor_opinion p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+article.contenedor_opinion:hover{
+    transform: scale(1.06);
+}
+
+
+div.contenedor-video{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.contenedor-video p{
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    width: 48%;
+    background-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 30px;
+    transition: transform 0.8s ease-in-out;
+
+}
+
+div.contenedor-video iframe{
+    margin: auto;
+    width: 50%;
+    transition: transform 0.8s ease-in-out;
+    box-shadow: 0px 0px 18px black;
+
+}
+
+div.contenedor-video:hover iframe{
+    transform: scale(1.1);
+}
+
+div.contenedor-video:hover p{
+    transform: translateX(-17px);
+}

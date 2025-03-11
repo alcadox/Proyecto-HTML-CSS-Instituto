@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Meta datos que definen la codificación de caracteres y la adaptabilidad a dispositivos móviles -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Título que aparece en la pestaña del navegador -->
+        <title>Contacto | Pusher</title>
+
+        <!-- Vinculación de hojas de estilo externas que definen el aspecto de la página -->
+        <link rel="stylesheet" href="css/header.css">  <!-- Estilos para el encabezado -->
+        <link rel="stylesheet" href="css/general.css">  <!-- Estilos generales para la página -->
+        <link rel="stylesheet" href="css/nav.css">  <!-- Estilos para la barra de navegación -->
+        <link rel="stylesheet" href="css/footer.css">  <!-- Estilos para el pie de página -->
+        <link rel="stylesheet" href="css/contacto.css">  <!-- Estilos específicos para la página de contacto -->
+        <link rel="stylesheet" href="css/musica.css">  <!-- Estilos para la música (en este caso para el reproductor de audio) -->
+    </head>
+
+    <body>
+    
+        <!-- Sección de Encabezado de la página, muestra el nombre y el autor -->
+        <header>
+            <div>
+                <div>
+                    <!-- Título principal de la página -->
+                    <h1>P  U  S  H  E  R</h1>
+                </div>
+                <div>
+                    <!-- Subtítulo indicando el autor del proyecto -->
+                    <h3>By: Alejandro Castillo Durillo</h3>
+                </div>
+            </div> 
+        </header>
+        
+        <!-- Barra de navegación con enlaces a diferentes secciones de la página -->
+        <nav> 
+            <div>
+                <!-- Enlace al inicio de la página -->
+                <div>
+                    <a href="index.html">
+                        <img src="imagenes/navegacion/casa.png" alt="Home">
+                    </a>
+                </div>
+
+                <!-- Enlace a la página de información -->
+                <div>
+                    <a href="informacion.html" target="_blank">
+                        <img src="imagenes/navegacion/informacion.png" alt="Información">
+                    </a>
+                </div>
+
+                <!-- Enlace a la página de contacto (esta misma página) -->
+                <div>
+                    <a href="contacto.html">
+                        <img src="imagenes/navegacion/persona.png" alt="Sesión">
+                    </a>
+                </div>
+
+                <!-- Enlace a la página de reseñas -->
+                <div>
+                    <a href="feedbacks.html">
+                        <img src="imagenes/navegacion/comentarios.png" alt="Reseñas">
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sección principal que contiene el contenido de la página -->
+        <section>
+            <div>
+                <!-- Primer artículo de la página que contiene la información de contacto -->
+                <article class="primer_contacto">
+                    <!-- Título de la sección de contacto -->
+                    <p class="titulo_bocata">Contacto</p><hr>
+                    
+                    <!-- Descripción que explica cómo los usuarios pueden ponerse en contacto -->
+                    <p>
+                        Si tienes alguna pregunta, duda o sugerencia, no dudes en ponerte en contacto con nosotros. Puedes enviarnos un correo electrónico a <b>contacto@pusher.com</b> o escribirnos a través del <a href="informacion.html">formulario</a> de contacto en nuestra página web.
+                    </p>
+                    
+                    <!-- Información sobre las redes sociales de Pusher -->
+                    <p>
+                        También puedes seguirnos en nuestras redes sociales para estar al tanto de nuestras últimas noticias y actualizaciones:
+                    </p>
+                    
+                    <!-- Lista de redes sociales de Pusher -->
+                    <ul>
+                        <li>Instagram: @pusher_fitness</li>
+                        <li>Facebook: Pusher Fitness</li>
+                        <li>Twitter: @Pusher_Official</li>
+                    </ul>
+                </article>
+
+                <!-- Segundo artículo con enlaces directos a redes sociales externas -->
+                <article class="div_enlaces">
+                    <p>ENLACES DIRECTOS</p><hr>
+
+                    <!-- Contenedor con iconos que enlazan a redes sociales externas -->
+                    <div class="contenedor_imagenes">
+                        <a href="https://discord.com" target="_blank">
+                            <img src="imagenes/contacto/discord.png" >
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="imagenes/contacto/instagramlogo.png">
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="imagenes/contacto/facebook.png">
+                        </a>
+                        <a href="https://x.com" target="_blank">
+                            <img src="imagenes/contacto/twitter.png">
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de audio en el aside, para proporcionar música de fondo -->
+        <aside>
+            <audio autoplay loop controls src="musica/CYBERPUNK 2077 Panam Storm Music _ Outsider No More _ Gamerip Soundtrack.mp3">
+            </audio>
+        </aside>
+
+        <!-- Pie de página con información sobre los patrocinadores oficiales -->
+        <footer>
+            <p>PATROCINADORES OFICIALES</p>
+            <div>
+                <!-- Enlaces a los sitios web de los patrocinadores con sus respectivos logotipos -->
+                <figure>
+                    <a href="https://www.hsnstore.com/">
+                        <img src="imagenes/footer/logoHSNReduced.svg" alt="HSN">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://www.redbull.com/es-es">
+                        <img src="imagenes/footer/redbull.png" alt="RedBull">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://muscleforce.es/es/">
+                        <img src="imagenes/footer/muscleforce.png" alt="BIGMAN">
+                    </a>
+                </figure>
+            </div>
+            <p>© 2025, Alejandro Castillo Durillo</p>
+        </footer>
+
+    </body>
+
+</html>
